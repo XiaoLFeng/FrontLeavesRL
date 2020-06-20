@@ -1,5 +1,3 @@
-# FrontLeavesRL 锋叶服务端重制版
-
 ### FrontLeavesRL For Survive 锋叶重制版生存服
 
 下载地址
@@ -112,6 +110,15 @@ EULA协议已设置true（这不是废话么）
 >
 > 默认所有商店我会设置到商店世界
 
+### 跨版本说明
+由于服务器采用核心1.12.2，并且跨版本支持版本为1.12.2~1.15.2进入服务器，然而1.13版本以后材质包（贴图）进行了修改
+
+会出现贴图错误，例如下图
+
+所以，这个BUG无法修复（除非跨版本作者自己修复或者重新找一个自己心仪的插件）
+
+![BUGImage](https://fp1.fghrsh.net/2020/06/20/0e6c741ea8d1e03c312d420f352c4ad2.png)
+
 ***
 ## 插件配置（这里串符比较长请耐心观看）
 > 注意，这里我没有全部插件列举出来，因为存在我可能忘记的情况，所以如果有些东西不明白可以加我QQ跟我进行处理
@@ -223,6 +230,13 @@ NPC删除指令 **/npc sel** 首先靠近要删除的NPC，输入前面的指令
 并且已经完善汉化（官方或者MCBBS作者给予汉化文件），没有多做其他修改
 
 权限请参看GroupManager权限组配置，默认权限已经配置完毕~
+
+### SimpleProtect 部分说明
+由于服务器开启了防爆，而有些玩家或服主不需要此项，故可以查询 **\plugins\SimpleProtect\config.yml** 执行修改措施
+
+具体修改查阅下方
+
+![ProtectImage](https://cdn.jsdelivr.net/gh/XiaoLFeng/Blog_Things/FrontLeavesRL/SimpleProtect-1.png)
 
 ***
 ## 后言
